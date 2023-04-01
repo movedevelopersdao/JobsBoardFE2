@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url('./Profile\ Dashboard.png') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+        }
+
+        .nav-bar {
+            margin: 10px 10px;
+            display: flex;
+
+            justify-content: space-between;
+        }
+
+        .logo-img {
+            margin: 10px 10px;
+        }
+
+        .job-description{
+            background: white;
+            margin: 20px 50px;
+            padding: 20px 20px;
+        }
+
+        .job-preview-title{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 146%;
+            /* or 32px */
+
+            text-transform: capitalize;
+
+            color: #000000;
+        }
+        
+
+        .display-head{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 146%;
+            /* or 32px */
+
+            text-transform: capitalize;
+
+            color: #000000;
+        }
+
+        .display-desc-box{
+            /* padding: 10px 10px; */
+            border-radius: 20px;
+            border: 1px solid ;
+            opacity: 0.8;
+        }
+
+        .display-desc{
+            margin: 10px 10px;
+            font-family: 'Poppins';
+            font-size: 20px;
+            background: transparent;
+            text-align: center;
+        }
+
+        .company-display{
+            display: flex;
+        }
+        .img-box{
+            width: 120px;
+            height: 120px;
+            background: gray;
+            border-radius: 10px;
+        }
+        .company-name{
+            margin-left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .submit-btn {
+            background: #263238;
+            border-radius: 20px;
+            font-family: 'Poppins';
+            font-size: 25px;
+            color: white;
+            padding: 10px 30px;
+        }
+
+        .submit {
+            display: flex;
+            justify-content: center;
+        }
+
+        @media screen and (max-width:600px){
+            .job-preview-title{
+            
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .display-head{
+            
+            font-weight: 500;
+            font-size: 18px;
+            
+        }
+        .display-desc{
+            
+            font-size: 18px;
+            
+        }
+        .job-description{
+            margin: 20px 30px;
+        }
+
+        .submit-btn{
+            font-size: 20px;
+        }
+        
+            
+        }
+        @media screen and (max-width:550px) {
+            
+            
+        }
+
+
+        @media screen and (max-width:500px) {
+            
+        }
+
+        @media screen and (max-width:450px) {
+            .img-box{
+                width: 100px;
+                height: 100px;
+            }
+            .logo-img{
+                width: 45px;
+            }
+            .job-preview-title{
+            
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .display-head{
+            
+            font-weight: 500;
+            font-size: 15px;
+            
+        }
+        .display-desc{
+            
+            font-size: 15px;
+            
+        }
+        .job-description{
+            margin: 20px 30px;
+        }
+
+        .submit-btn{
+            font-size: 18px;
+        }
+        
+        }
+
+        @media screen and (max-width:400px){
+            .job-preview-title{
+            
+            font-weight: 550;
+            font-size: 17px;
+        }
+        .display-head{
+            
+            font-weight: 450;
+            font-size: 13px;
+            
+        }
+        .display-desc{
+            
+            font-size: 13px;
+            
+        }
+        .job-description{
+            margin: 20px 20px;
+        }
+
+        .submit-btn{
+            font-size: 16px;
+        }
+            
+
+        }
+
+        @media screen and (max-width:350px) {
+            
+            .img-box{
+                width: 60px;
+                height: 60px;
+            }
+        
+        }
+        @media screen and (max-width:300px){
+            .job-preview-title{
+            
+            font-weight: 550;
+            font-size: 15px;
+        }
+        .display-head{
+            
+            font-weight: 450;
+            font-size: 11px;
+            
+        }
+        .display-desc{
+            
+            font-size: 10px;
+            
+        }
+        .job-description{
+            margin: 20px 20px;
+        }
+
+        .submit-btn{
+            font-size: 14px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="nav-bar">
+        <img src="./logo 1.png" alt="" class="logo-img">
+
+    </nav>
+
+
+    <div class="job-description">
+        <h1 class="job-preview-title">Job Preview</h1>
+        <div class="company-display display-box">
+            <div class="img-box"></div>
+            <div class="company-name"><p class="display-head">Move Developers DAO</p></div>
+        </div>
+        <div class="display-box">
+            <p class="display-head">Primary Role</p>
+            <div class="display-desc-box">
+                <p class="display-desc">Backend Developer</p>
+            </div>
+        </div>
+        <div class="display-box">
+            <p class="display-head">Type of position</p>
+            <div class="display-desc-box">
+                <p class="display-desc">Full Time</p>
+            </div>
+        </div>
+        <div class="display-box">
+            <p class="display-head">Location</p>
+            <div class="display-desc-box">
+                <p class="display-desc">Bengaluru,India / Remote</p>
+            </div>
+        </div>
+        <div class="display-box">
+            <p class="display-head">Job Description</p>
+            <div class="display-desc-box">
+                <p class="display-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, at. Quasi illo nam facilis consectetur ex quaerat commodi ducimus mollitia similique nostrum. Hic voluptates ex repudiandae, impedit unde nihil sequi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestiae non quidem vitae quis eveniet, possimus ea illo, sequi eum minima blanditiis ratione voluptates odit porro, distinctio cupiditate nisi nesciunt!
+                </p>
+            </div>
+        </div>
+        <div class="display-box">
+            <p class="display-head">Base Salary</p>
+            <div class="display-desc-box">
+                <p class="display-desc">USD 100,000</p>
+            </div>
+        </div>
+        </div>
+
+        
+        <div class="submit">
+            <button class="submit-btn">Submit</button>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
